@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/opheliaboamahampoh/Documents/Dev/C#/SolarCoffee/SolarCoffee.Data/SolarCoffee.Data.csproj": {}
+  },
+  "projects": {
+    "/Users/opheliaboamahampoh/Documents/Dev/C#/SolarCoffee/SolarCoffee.Data/SolarCoffee.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/opheliaboamahampoh/Documents/Dev/C#/SolarCoffee/SolarCoffee.Data/SolarCoffee.Data.csproj",
+        "projectName": "SolarCoffee.Data",
+        "projectPath": "/Users/opheliaboamahampoh/Documents/Dev/C#/SolarCoffee/SolarCoffee.Data/SolarCoffee.Data.csproj",
+        "packagesPath": "/Users/opheliaboamahampoh/.nuget/packages/",
+        "outputPath": "/Users/opheliaboamahampoh/Documents/Dev/C#/SolarCoffee/SolarCoffee.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/opheliaboamahampoh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.Service.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.0.0-preview1-final, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
